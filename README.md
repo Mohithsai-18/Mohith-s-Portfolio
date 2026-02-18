@@ -1,6 +1,6 @@
 # Portfolio - Mohith Sai 
 
-A modern, professional portfolio website built with React and Vite, featuring a sleek graphic design theme with neon green accents.
+
 
 ## 🚀 Features
 
