@@ -1,10 +1,27 @@
-// App.jsx
-import React from 'react';
+import Hero from './components/Hero';
+import About from './components/About';
+import Education from './components/Education';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Certifications from './components/Certifications';
+import Achievements from './components/Achievements';
+import Languages from './components/Languages';
+import Footer from './components/Footer';
 
 function App() {
     return (
         <div>
-            <h1>Welcome to My Portfolio</h1>
+            <Hero />
+            <About />
+            <Education />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Certifications />
+            <Achievements />
+            <Languages />
+            <Footer />
         </div>
     );
 }
