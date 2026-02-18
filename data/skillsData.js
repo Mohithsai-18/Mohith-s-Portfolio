@@ -1,1 +1,11 @@
-const skillsData = {\n  "programmingLanguages": [\n    {\n      "name": "JavaScript",\n      "level": "Advanced"\n    },\n    {\n      "name": "Python",\n      "level": "Intermediate"\n    }\n  ],\n  "frameworks": [\n    {\n      "name": "React",\n      "level": "Advanced"\n    },\n    {\n      "name": "Django",\n      "level": "Intermediate"\n    }\n  ],\n  "databases": [\n    {\n      "name": "MySQL",\n      "level": "Intermediate"\n    },\n    {\n      "name": "MongoDB",\n      "level": "Intermediate"\n    }\n  ]\n};\n\nexport default skillsData;\n
+const skillsData = [
+    { name: 'JavaScript', level: 'Expert' },
+    { name: 'Python', level: 'Intermediate' },
+    { name: 'React', level: 'Advanced' },
+    { name: 'Node.js', level: 'Advanced' },
+    { name: 'CSS', level: 'Expert' },
+    { name: 'HTML', level: 'Expert' },
+    { name: 'Java', level: 'Intermediate' }
+];
+
+export default skillsData;
